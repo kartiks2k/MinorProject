@@ -17,8 +17,8 @@ const SignIn  = ()=>{
         const data = new FormData()
         data.append("file",image)
         data.append("upload_preset","new-insta")
-        data.append("cloud_name","cnq")
-        fetch("https://api.cloudinary.com/v1_1/cnq/image/upload",{
+        data.append("cloud_name","kartiks2k")
+        fetch("https://api.cloudinary.com/v1_1/kartiks2k/image/upload",{
             method:"post",
             body:data
         })
@@ -71,7 +71,7 @@ const SignIn  = ()=>{
    return (
       <div className="mycard">
           <div className="card auth-card input-field">
-            <h2>Instagram</h2>
+            <h2>Sign Up!</h2>
             <input
             type="text"
             placeholder="name"
